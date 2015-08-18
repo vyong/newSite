@@ -4,7 +4,7 @@ NewSite::Application.routes.draw do
   match "devtest", to: "todos#index"
 
 
-  root :to => "todos#index"
+  root :to => "todos#about"
 
 
   # The priority is based upon order of creation:
