@@ -2,6 +2,10 @@ NewSite::Application.routes.draw do
   resources :todos
 
   match "devtest", to: "todos#index"
+  match "tulip", to: "todos#tulip"
+  match "tulipjob", to: "todos#tulipjob"
+  match "tulipgoals", to: "todos#tulipgoals"
+  match "tulipconclusion", to: "todos#tulipconclusion"
 
 
   root :to => "todos#about"
