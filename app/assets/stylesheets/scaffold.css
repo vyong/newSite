@@ -54,3 +54,8 @@ div.field, div.actions {
   font-size: 12px;
   list-style: square;
 }
+
+.pictureDescription {
+  font-color:blue;
+  margin-bottom:15px;
+}
